@@ -1,0 +1,17 @@
+
+.img-scale{
+transition: transform 800ms ease;
+overflow: hidden;
+
+}
+.img-scale:hover{
+    transform: scale(1.2);
+}
+
+.wrapper{
+    overflow-x: auto;
+    perspective: 10px;
+}
+.background{
+    transform: translateZ(-10px);
+}

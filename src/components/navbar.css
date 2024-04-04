@@ -1,0 +1,32 @@
+.text-hover-gradient::after{
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 48px;
+    height: 2.5px;
+    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    border-radius: 10px;
+    transition: transform 0.3s ease; /* Add transition property */
+    transform: scale(0,1);
+    transform-origin:0% 100%;
+}
+.active
+{
+    /* content: ''; */
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    width: 48px;
+    height: 2.5px;
+    background: linear-gradient(270deg, #FF9D42 0%, #FF6069 50.91%, #B16CEA 100%);
+    border-radius: 10px;
+}
+
+.text-hover-gradient:hover::after {
+ transform: scale(1,1);
+}
+
+.hamburger-menu{
+    transition: all 9s ease;
+}

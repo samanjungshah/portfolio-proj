@@ -1,0 +1,26 @@
+.text-gradient-hover::after{
+    content: '';
+    background: var(--main-gradient);
+    height: 4px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transform: scale(0,1);
+    transition: transform 0.3s ease;
+    transform-origin: 0% 100%;
+
+}
+.text-gradient-hover:hover::after{
+    transform: scale(1,1);
+}
+.hover-img-scale{
+    overflow: hidden;
+}
+.hover-img-scale img{
+    transition: all 0.6s ease;
+}
+.hover-img-scale img:hover{
+    transform: scale(1.1);
+    
+}

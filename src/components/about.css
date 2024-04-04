@@ -1,0 +1,27 @@
+.experience{
+    background: var(--main-gradient);
+    clip-path: ellipse(50% 50% at 50% 50%);
+}
+.experience-sm{
+    background: var(--main-gradient);
+
+}
+.in{
+    filter: drop-shadow(-3px 7px 0px #000);
+
+}
+
+.icon-anim{
+  /* transition: all 6s ease; */
+  animation: animeIcon 5s linear;
+}
+
+@keyframes animeIcon{
+  0% {
+      transform: rotate(0deg);
+  }
+  
+  100% {
+      transform: rotate(-360deg);
+  }
+}
